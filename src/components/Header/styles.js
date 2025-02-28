@@ -34,7 +34,7 @@ export const Li = styled.li`
     color: #ffffff;
   }
 
-  &::after {
+  &::before {
     content: "";
     height: 3px;
     width:  ${(props) => (props.$isActive ? "100%" : 0)};

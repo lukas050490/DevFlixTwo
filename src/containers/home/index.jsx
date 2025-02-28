@@ -5,9 +5,9 @@ import { useNavigate } from "react-router-dom"
 import Button from "../../components/Button"
 
 import { Background, Info, Poster, Container, ContainerButton } from "./styles"
-import Slider from "../../components/Slider";
-import { getImages } from "../../utils/getImages";
-import Modal from "../../components/Modal";
+import Slider from "../../components/Slider"
+import { getImages } from "../../utils/getImages"
+import Modal from "../../components/Modal"
 import { getMovies, getPopularSeries, getTopArtist, getTopMovies, getTopSeries } from "../../services/getData"
 
 function Home() {
